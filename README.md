@@ -20,13 +20,14 @@ An end-to-end machine learning application that predicts whether sonar measureme
 
 ## Project Structure
 ```text
-sentiment-analyzer-capstone/
+mine-rock-prediction-capstone/
 ├── app/
 │   ├── main.py
 │   └── frontend.py
 ├── model/
 │   └── mine_rock_model.joblib
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ## Run Locally
@@ -39,6 +40,7 @@ python -m uvicorn app.main:app --reload
 API documentation: http://127.0.0.1:8000/docs
 
 ### 2. Start the frontend
+
 Open a second terminal and run:
 ```bash
 python -m streamlit run app/frontend.py
