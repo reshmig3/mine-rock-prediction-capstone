@@ -1,0 +1,41 @@
+{
+  "model": "SVM (RBF)",
+  "train_rows": 166,
+  "test_rows": 42,
+  "test_accuracy": 0.8571,
+  "precision_mine": 0.8077,
+  "recall_mine": 0.9545,
+  "f1_mine": 0.875,
+  "confusion_matrix": [
+    [
+      21,
+      1
+    ],
+    [
+      5,
+      15
+    ]
+  ],
+  "labels": [
+    "M",
+    "R"
+  ],
+  "cross_validation": {
+    "Logistic Regression": {
+      "mean": 0.7351,
+      "std": 0.0578
+    },
+    "SVM (RBF)": {
+      "mean": 0.8314,
+      "std": 0.0622
+    },
+    "KNN": {
+      "mean": 0.8073,
+      "std": 0.073
+    },
+    "Random Forest": {
+      "mean": 0.8073,
+      "std": 0.0677
+    }
+  }
+}
